@@ -1,2 +1,2 @@
-# model_sim_nat_proc
-Coursera course Model and Simulation of Natural Processes
+# Week 1. Introduction and Background Concepts
+
