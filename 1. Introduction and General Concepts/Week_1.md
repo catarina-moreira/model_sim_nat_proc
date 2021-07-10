@@ -63,13 +63,7 @@ In many systems, it is not so much the exact spatial positions of the components
 
 ## Module 5. Monte Carlo Methods I
 
-### Background
 
-The goal of Monte Carlo methods is the sampling of a process in order to determine some statistical properties;
-
-For instance, we toss a coin 4 times. What is the probability to obtain 3 tails and 1 head?
-
-Mathematics gives us the solution
 
 <img src="https://render.githubusercontent.com/render/math?math=P(3 head)=\begin{pmatrix}
         4\\
@@ -92,6 +86,6 @@ print("Number of attempts= ", attempts)
 print("Number of success= ", success)
 ```
 
-
+## Module 5. Monte Carlo Methods II
 
 
