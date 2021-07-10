@@ -26,6 +26,16 @@ It is not always easy to identify these important ingredients and to indentify h
 
 ## Module 3. Modelling Space and Time
 
+Natural processes occur in space and evolve over time.
+
+### Time Evolution
+
+To capture the temporal dimensions in a model, there are several ways:
+- Time takes any real values. Only mathematical approaches can deal with this through differentcial equations);
+- Otherwise, the duration of the process is broken up in small time intervals $\delta_t$ and one describes the state of the system at ech of these **time-steps** ``t_0 = 0, t_1 = \delta_t, ..., t_n = n \delta_t...``
+- The time is discretised, but the process is followed continuously iver the duration;
+- Alternatively, we can only focus on the interesting moments of a process;
+- 
 
 
 
