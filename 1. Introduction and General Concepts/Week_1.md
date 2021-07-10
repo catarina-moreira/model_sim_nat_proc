@@ -67,16 +67,31 @@ In many systems, it is not so much the exact spatial positions of the components
 
 The goal of Monte Carlo methods is the sampling of a process in order to determine some statistical properties;
 
-```latex
 For instance, we toss a coin 4 times. What is the probability to obtain 3 tails and 1 head?
 
 Mathematics gives us the solution
 
-<img src="https://render.githubusercontent.com/render/math?math=\begin{pmatrix}
-1 \\
-4
-\end{pmatrix}">
+<img src="https://render.githubusercontent.com/render/math?math=P(3 head)=\begin{pmatrix}
+        4\\
+        3
+    \end{pmatrix}
+    \left(\frac{1}{2}\right)^3\left(1-\frac{1}{2}\right)^1=\frac{1}{4}">
+
+But we could also do a simmulation:
+```python
+from random import randint
+
+success=0
+
+attempts=10000
+for i in range(attempts):
+   if randint(0,1) + randint(0,1)+randint(0,1)+randint(0,1) == 3:
+      success+=1
+   
+print("Number of attempts= ", attempts)
+print("Number of success= ", success)
 ```
+
 
 
 
